@@ -1,0 +1,11 @@
+{
+  "name": "micro-accordion",
+  "version": "1.0.0",
+  "description": "Microtonal accordion web application",
+  "scripts": {
+    "bundle": "bun run bundle.ts",
+    "check": "bun run bundle.ts --check",
+    "build": "bun run bundle.ts",
+    "test": "python3 tests/test_bundle.py"
+  }
+}
